@@ -96,3 +96,13 @@ class BaseController
     }
   end
 end
+#######################################################
+# Possible fixes for the redirect vulnerability       #
+#######################################################
+#  In order to fix the redirect vulnerability one of  # 
+#  the best way is to include in each redirect action #
+#  only  the expected parameters.                     #
+# An another possible solution is to use the secure   #     
+#  e access token                                     #
+#######################################################
+     
